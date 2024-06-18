@@ -18,10 +18,10 @@ You can install them using pip:
 $ pip install pandas numpy scikit-learn
 $ Project Structure:
 ```
-* **data/**: This folder contains the diabetes dataset (replace with your data source).
-* **notebooks/**: This folder contains Jupyter Notebooks for data exploration, model training, and evaluation (modify names if needed).
-* **models/**: This folder will store the trained model files after running the notebooks.
-* **requirements.txt**: This file lists the required Python libraries.
+* `data/`: This folder contains the diabetes dataset (replace with your data source).
+* `notebooks/`: This folder contains Jupyter Notebooks for data exploration, model training, and evaluation (modify names if needed).
+* `models/`: This folder will store the trained model files after running the notebooks.
+* `requirements.txt`: This file lists the required Python libraries.
 ## Running the Notebooks:
 
 1. Clone this repository.
