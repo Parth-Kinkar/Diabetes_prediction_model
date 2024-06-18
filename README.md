@@ -30,7 +30,7 @@ $ Project Structure:
 ```
 jupyter notebook
 ```
-4. Open the notebooks in notebooks/ and run the cells sequentially.
+4. Open the notebooks in `notebooks/` and run the cells sequentially.
 The first notebook might perform data loading, cleaning, and pre-processing.
 The second notebook will likely train the SVM model and evaluate its performance.
 ## Further Considerations:
