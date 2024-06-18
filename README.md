@@ -1,40 +1,34 @@
 # Diabetes Prediction Model with SVM
 This repository contains the code for a diabetes prediction model built using Support Vector Machine (SVM) in Python. The model predicts whether a person has diabetes based on various factors like:
 
-Glucose level
-Number of pregnancies
-Insulin level
-Body Mass Index (BMI)
-Age
+* Glucose level
+* Number of pregnancies
+* Insulin level
+* Body Mass Index (BMI)
+* Age
 ## Getting Started
 
 This project requires the following Python libraries:
 
-Pandas
-NumPy
-Scikit-learn
+* Pandas
+* NumPy
+* Scikit-learn
 You can install them using pip:
-
-Bash
-pip install pandas numpy scikit-learn
-Use code with caution.
-content_copy
-## Project Structure:
-
-data/: This folder contains the diabetes dataset (replace with your data source).
-notebooks/: This folder contains Jupyter Notebooks for data exploration, model training, and evaluation (modify names if needed).
-models/: This folder will store the trained model files after running the notebooks.
-requirements.txt: This file lists the required Python libraries.
+```
+$ pip install pandas numpy scikit-learn
+$ Project Structure:
+```
+**data/**: This folder contains the diabetes dataset (replace with your data source).
+**notebooks/**: This folder contains Jupyter Notebooks for data exploration, model training, and evaluation (modify names if needed).
+**models/**: This folder will store the trained model files after running the notebooks.
+**requirements.txt**: This file lists the required Python libraries.
 ## Running the Notebooks:
 
-Clone this repository.
-Open a terminal in the project directory.
-Start a Jupyter Notebook server:
-Bash
+* Clone this repository.
+* Open a terminal in the project directory.
+* Start a Jupyter Notebook server:
 jupyter notebook
-Use code with caution.
-content_copy
-Open the notebooks in notebooks/ and run the cells sequentially.
+* Open the notebooks in notebooks/ and run the cells sequentially.
 The first notebook might perform data loading, cleaning, and pre-processing.
 The second notebook will likely train the SVM model and evaluate its performance.
 ## Further Considerations:
